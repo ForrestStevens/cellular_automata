@@ -1,5 +1,12 @@
-##	This code is radically more efficient than the original code that inspired it:
+##	This code is radically more efficient than the original code that inspired it
+##		as I reworked it to not process cell by cell but rather row by row.  I'm sure
+##		it could be improved further but hopefully someone will find it a nice starting
+##		point just as I found the original code as good inspiration:
 ##		http://aschinchon.wordpress.com/2014/01/14/cellular-automata-the-beauty-of-simplicity/
+
+##	This projected is licensed under the terms of the MIT license.
+##	Copyright (c) 2014 Forrest R. Stevens
+##	http://www.forreststevens.com/teaching
 
 require(raster)
 
